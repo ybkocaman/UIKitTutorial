@@ -13,6 +13,14 @@
 		468B69DF2BEFC640006F052A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 468B69DE2BEFC640006F052A /* Base */; };
 		468B69E12BEFC641006F052A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468B69E02BEFC641006F052A /* Assets.xcassets */; };
 		468B69E42BEFC641006F052A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 468B69E32BEFC641006F052A /* Base */; };
+		468B69F52BEFC8C7006F052A /* LabelsTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B69F42BEFC8C7006F052A /* LabelsTutorialViewController.swift */; };
+		468B69F82BEFCC8B006F052A /* ButtonsTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B69F72BEFCC8B006F052A /* ButtonsTutorialViewController.swift */; };
+		468B69FB2BF0D27B006F052A /* ShapesTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B69FA2BF0D27B006F052A /* ShapesTutorialViewController.swift */; };
+		468B69FE2BF0D547006F052A /* StacksTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B69FD2BF0D547006F052A /* StacksTutorialViewController.swift */; };
+		468B6A012BF0DB45006F052A /* TextFieldsTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B6A002BF0DB45006F052A /* TextFieldsTutorialViewController.swift */; };
+		468B6A042BF10AAE006F052A /* ScrollViewsTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B6A032BF10AAE006F052A /* ScrollViewsTutorialViewController.swift */; };
+		468B6A072BF11AA5006F052A /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B6A062BF11AA5006F052A /* ActionButtonView.swift */; };
+		468B6A092BF11EE3006F052A /* DelegateDesignTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B6A082BF11EE3006F052A /* DelegateDesignTutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		468B69E02BEFC641006F052A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		468B69E32BEFC641006F052A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		468B69E52BEFC641006F052A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468B69F42BEFC8C7006F052A /* LabelsTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsTutorialViewController.swift; sourceTree = "<group>"; };
+		468B69F72BEFCC8B006F052A /* ButtonsTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsTutorialViewController.swift; sourceTree = "<group>"; };
+		468B69FA2BF0D27B006F052A /* ShapesTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorialViewController.swift; sourceTree = "<group>"; };
+		468B69FD2BF0D547006F052A /* StacksTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksTutorialViewController.swift; sourceTree = "<group>"; };
+		468B6A002BF0DB45006F052A /* TextFieldsTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsTutorialViewController.swift; sourceTree = "<group>"; };
+		468B6A032BF10AAE006F052A /* ScrollViewsTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsTutorialViewController.swift; sourceTree = "<group>"; };
+		468B6A062BF11AA5006F052A /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		468B6A082BF11EE3006F052A /* DelegateDesignTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDesignTutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,127 @@
 		468B69D62BEFC640006F052A /* UIKitTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				468B69D72BEFC640006F052A /* AppDelegate.swift */,
-				468B69D92BEFC640006F052A /* SceneDelegate.swift */,
-				468B69DB2BEFC640006F052A /* ViewController.swift */,
-				468B69DD2BEFC640006F052A /* Main.storyboard */,
-				468B69E02BEFC641006F052A /* Assets.xcassets */,
-				468B69E22BEFC641006F052A /* LaunchScreen.storyboard */,
-				468B69E52BEFC641006F052A /* Info.plist */,
+				468B69EF2BEFC657006F052A /* App */,
+				468B69EE2BEFC654006F052A /* Basics */,
+				468B69ED2BEFC652006F052A /* Crypto */,
+				468B69EC2BEFC650006F052A /* Extensions */,
+				468B69EB2BEFC647006F052A /* Resources */,
+				468B69F02BEFC67B006F052A /* Storyboards */,
 			);
 			path = UIKitTutorial;
+			sourceTree = "<group>";
+		};
+		468B69EB2BEFC647006F052A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				468B69E02BEFC641006F052A /* Assets.xcassets */,
+				468B69E52BEFC641006F052A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		468B69EC2BEFC650006F052A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		468B69ED2BEFC652006F052A /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		468B69EE2BEFC654006F052A /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				468B6A052BF11A5F006F052A /* DelegateDesign */,
+				468B6A022BF10A99006F052A /* ScrollViews */,
+				468B69FF2BF0DB2D006F052A /* TextFields */,
+				468B69F62BEFCC6F006F052A /* Button */,
+				468B69F12BEFC7BA006F052A /* Labels */,
+				468B69F92BF0D261006F052A /* Shapes */,
+				468B69FC2BF0D53C006F052A /* Stacks */,
+				468B69DB2BEFC640006F052A /* ViewController.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		468B69EF2BEFC657006F052A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				468B69D72BEFC640006F052A /* AppDelegate.swift */,
+				468B69D92BEFC640006F052A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		468B69F02BEFC67B006F052A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				468B69E22BEFC641006F052A /* LaunchScreen.storyboard */,
+				468B69DD2BEFC640006F052A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		468B69F12BEFC7BA006F052A /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				468B69F42BEFC8C7006F052A /* LabelsTutorialViewController.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		468B69F62BEFCC6F006F052A /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				468B69F72BEFCC8B006F052A /* ButtonsTutorialViewController.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		468B69F92BF0D261006F052A /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				468B69FA2BF0D27B006F052A /* ShapesTutorialViewController.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		468B69FC2BF0D53C006F052A /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				468B69FD2BF0D547006F052A /* StacksTutorialViewController.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		468B69FF2BF0DB2D006F052A /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				468B6A002BF0DB45006F052A /* TextFieldsTutorialViewController.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		468B6A022BF10A99006F052A /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				468B6A032BF10AAE006F052A /* ScrollViewsTutorialViewController.swift */,
+			);
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		468B6A052BF11A5F006F052A /* DelegateDesign */ = {
+			isa = PBXGroup;
+			children = (
+				468B6A062BF11AA5006F052A /* ActionButtonView.swift */,
+				468B6A082BF11EE3006F052A /* DelegateDesignTutorialViewController.swift */,
+			);
+			path = DelegateDesign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +266,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468B6A012BF0DB45006F052A /* TextFieldsTutorialViewController.swift in Sources */,
+				468B69FB2BF0D27B006F052A /* ShapesTutorialViewController.swift in Sources */,
+				468B69F82BEFCC8B006F052A /* ButtonsTutorialViewController.swift in Sources */,
 				468B69DC2BEFC640006F052A /* ViewController.swift in Sources */,
 				468B69D82BEFC640006F052A /* AppDelegate.swift in Sources */,
 				468B69DA2BEFC640006F052A /* SceneDelegate.swift in Sources */,
+				468B6A042BF10AAE006F052A /* ScrollViewsTutorialViewController.swift in Sources */,
+				468B6A092BF11EE3006F052A /* DelegateDesignTutorialViewController.swift in Sources */,
+				468B69FE2BF0D547006F052A /* StacksTutorialViewController.swift in Sources */,
+				468B6A072BF11AA5006F052A /* ActionButtonView.swift in Sources */,
+				468B69F52BEFC8C7006F052A /* LabelsTutorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +430,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DXR5DNXSQL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitTutorial/Info.plist;
+				INFOPLIST_FILE = UIKitTutorial/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +458,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DXR5DNXSQL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitTutorial/Info.plist;
+				INFOPLIST_FILE = UIKitTutorial/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
